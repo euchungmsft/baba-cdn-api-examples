@@ -2,6 +2,34 @@
 
 com.eg.baba.cdn.examples.Main contains sample code to use CDN APIs
 
+*How to use*
+1. Create a new Git project from your Eclipse by cloning from the URL
+2. Update your project with 'Refresh gradle project'. Be careful with component dependencies that defined from build.gradle
+3. Make a copy sample.clientprofile to .clientprofile and make changes to key.id and key secret with your own which generated from Aliyun portal
+4. Play with Main.java by changing code blocks with different parameters
+5. Enjoy it
+
+**build.gradlle**
+
+    dependencies {
+	...
+	...
+	
+    	// https://mvnrepository.com/artifact/com.google.code.gson/gson
+    	compile group: 'com.google.code.gson', name: 'gson', version: '2.8.1'
+    	
+    	// https://mvnrepository.com/artifact/com.aliyun/aliyun-java-sdk-core
+    	compile group: 'com.aliyun', name: 'aliyun-java-sdk-core', version: '2.2.0'
+    	// https://mvnrepository.com/artifact/com.aliyun/aliyun-java-sdk-cdn
+    	compile group: 'com.aliyun', name: 'aliyun-java-sdk-cdn', version: '2.3.1'
+    	// https://mvnrepository.com/artifact/com.aliyun/aliyun-java-sdk-cms
+    	compile group: 'com.aliyun', name: 'aliyun-java-sdk-cms', version: '3.1.1'    
+    }
+
+
+
+*Code examples* 
+
 
 **Example 1**.  Domain basic information
 
