@@ -25,5 +25,12 @@ dependencies {
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
+
+	// https://mvnrepository.com/artifact/com.aliyun/aliyun-java-sdk-core
+	compile group: 'com.aliyun', name: 'aliyun-java-sdk-core', version: '2.2.0'
+	// https://mvnrepository.com/artifact/com.aliyun/aliyun-java-sdk-cdn
+	compile group: 'com.aliyun', name: 'aliyun-java-sdk-cdn', version: '2.3.1'
+	// https://mvnrepository.com/artifact/com.aliyun/aliyun-java-sdk-cms
+	compile group: 'com.aliyun', name: 'aliyun-java-sdk-cms', version: '3.1.1'    
 }
 
