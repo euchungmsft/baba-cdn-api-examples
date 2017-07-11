@@ -27,6 +27,9 @@ com.eg.baba.cdn.examples.Main contains sample code to use CDN APIs
     }
 
 
+List of instruction sets of the CDN can be found under 'data' folder
+CDNAPI.xlsx 
+
 
 *Code examples* 
 
